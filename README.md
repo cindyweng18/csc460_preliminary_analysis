@@ -22,12 +22,16 @@ For example:
 
 ### Exploratory Analysis
 Describe what work you have done so far and include the code. 
+We described our dataset and observed if there were any missing values or any values that were out of range. There were missing values in certain columns and those were taken care of in the data cleaning section. We also graphed some columns such as the Status column to see the percentage of Developed vs Developing countries in our dataset. In addition, we use Seaborn's Heatmap feature to map the correlation levels between our columns of our dataset and wrote down our observations from it.
 
 ### Challenges
 Describe any challenges you've encountered so far. Let me know if there's anything you need help with!
+Some challenges that we encountered so far was what was the best way to deal with the Null values in our dataset without messing up the data itself, and what features we can use for our modes
 
 ### Future Work
 Describe what work you are planning to complete for the final analysis.
+For the final analysis, we are planning to build a Linear Regression model, discuss the result and the answer to our data science question.
 
 ### Contributions
 Describe the contributions that each group member made.
+Sanjida, Nour, and Cindy worked on the data cleaning and exploratory analysis.
