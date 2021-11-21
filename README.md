@@ -31,6 +31,7 @@ Some challenges that we encountered so far was what was the best way to deal wit
 ### Future Work
 Describe what work you are planning to complete for the final analysis.
 For the final analysis, we are planning to build a Linear Regression model, discuss the result and the answer to our data science question.
+[ ] Better understand what diseases cause life expectancy to decrease in developing countries (make use of other columns within the dataframe)
 
 ### Contributions
 Describe the contributions that each group member made.
