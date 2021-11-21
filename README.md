@@ -26,12 +26,13 @@ We described our dataset and observed if there were any missing values or any va
 
 ### Challenges
 Describe any challenges you've encountered so far. Let me know if there's anything you need help with!
-Some challenges that we encountered so far was what was the best way to deal with the Null values in our dataset without messing up the data itself, and what features we can use for our modes
+* Some challenges that we encountered so far was what was the best way to deal with the Null values in our dataset without messing up the data itself, and what features we can use for our modes
 
 ### Future Work
 Describe what work you are planning to complete for the final analysis.
 For the final analysis, we are planning to build a Linear Regression model, discuss the result and the answer to our data science question.
-[ ] Better understand what diseases cause life expectancy to decrease in developing countries (make use of other columns within the dataframe)
+
+* Better understand what diseases cause life expectancy to decrease in developing countries (make use of other columns within the dataframe)
 
 ### Contributions
 Describe the contributions that each group member made.
