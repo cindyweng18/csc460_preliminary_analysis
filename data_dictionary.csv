@@ -1,0 +1,8 @@
+Column Title ,Data Type,Description
+Status ,Boolean,1 = devleoped country and 0 = not developed country 
+Life Expectancy ,Float ,Adult mortality rates of both sexes (probability of dying between 15 and 60 years per 1000 population)
+Adult Mortality,Integer,Adult mortality rates of both sexes (probability of dying between 15 and 60 years per 1000 population)
+GDP,Float ,Gross Domestic Product per capita (in USD)
+Population,Float ,Population of the country 
+Schooling,Float ,Number of years in school
+Country_int,Integer,encoded integer of the country and they range from 0 - 192
