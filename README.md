@@ -10,12 +10,17 @@ List each file and what it's purpose it. Make sure you indicate where your data 
 
 For example:
 - `data`
-  - `Life Expectancy Data.csv`: Raw data from Life Expectancy Dataset
+  - `Life Expectancy Data.csv`: Raw data from Life Expectancy Dataset from [Kaggle](https://www.kaggle.com/kumarajarshi/life-expectancy-who)
+  - `world_population.csv`: Raw data from World Population from [World Bank](https://data.worldbank.org/indicator/SP.POP.TOTL?end=2015&name_desc=false&start=2000)
   - `cleaned_Life Expectancy Data.csv`: The cleaned and combined dataset for modeling. 
   - `data_dictionary.csv`: The data dictionary for cleaned dataset. 
+  - `countries_codes.csv`: Data with countries with their corresponding integer-encoded values.
 - `code`
   - `etl_life.py`: Cleans `Life Expectancy Data.csv`
   - `exploratory_data_analysis.ipynb`: Includes descriptive statistics and charts. 
+  - `model_life.ipynb`: Includes model training, evaluation, and answer to our data science question.
+- `Blog Post`
+  - `LifeExpectancy Blog Post`: Blog post for this project
 
 ### Exploratory Analysis
 Describe what work you have done so far and include the code. 
@@ -38,4 +43,4 @@ For the final analysis, we are planning to
 ### Contributions
 Describe the contributions that each group member made.
 
-Sanjida, Nour, and Cindy worked on the data cleaning and exploratory analysis on Google Collab.
+Sanjida, Nour, and Cindy worked on the data cleaning,exploratory analysis, model training and evaluation on Google Collab and the blog post
