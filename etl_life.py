@@ -113,9 +113,10 @@ def clean_data(raw_df, population_df):
     # We converted the Country column to a category, then use those category values for your label encoding
     df["Country"] = df["Country"].astype('category')
     df["Country_int"] = df["Country"].cat.codes
+    countries_codes = df[['Country','Country_int']]
     df.drop(columns="Country", inplace=True)
 
-    return df
+    return df, countries_codes
 
 
 def main():
@@ -124,8 +125,9 @@ def main():
     """
     raw_df, raw_population_df = get_data()
     population_df = clean_population_data(raw_population_df)
-    df = clean_data(raw_df, population_df)
+    df, countries_codes = clean_data(raw_df, population_df)
     df.to_csv('cleaned_Life Expectancy Data.csv', index=False)
+    countries_codes.to_csv('countries_codes.csv', index=False)
 
 
 if __name__ == "__main__":
